@@ -417,4 +417,15 @@ margin-bottom: 20px;
      margin: auto;
      margin-bottom: 20px;
       }
+      .section-furniture .furniture-container {
+      flex-direction: column;
+      max-width: 100%;
+    }
+    .furniture-small{
+      display: none;
+    }
+    .furniture-big{
+      width: 100%;
+      height: auto;
+    }
 }
