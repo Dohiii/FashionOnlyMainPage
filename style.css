@@ -290,6 +290,7 @@ text-transform: uppercase ;
        top: 0px;
     padding: 0 30px;
     border-top: 1px solid #eeeeee;
+    
   }
   .contact .text{
     width: 100%;
@@ -351,21 +352,25 @@ text-transform: uppercase ;
 
 
   @media(max-width: 768px){
-    .navbar{
-        flex-direction: column;
-        height: 100px;
+    header{
+      overflow-x:hidden;
     }
+    .navbar{
+      flex-direction: column;
+      max-width: 80%;
+      height: 120px;
+      padding: 20px ;
+      
+    }
+    .navbar a{
+      padding: 10px 10px;
+      margin: 0 3px;
+  }
     .navbar .logo{
       margin-top: 1rem;
       font-size: 30px;
-      
-    }
-    .navbar{
-      padding: 3px;
-  color: #333;
-margin-bottom: 20px;
-    }
-    .navbar .logo{
+          }
+      .navbar .logo{
       font-size: 30px;
       margin: auto;
     }
@@ -430,11 +435,10 @@ margin-bottom: 20px;
     }
     .footer{
       max-width: 100%;
+      flex-direction: column;
+      height: 600px;
     }
     .footer .contact a{
-      padding: 9px 50px;
-  border: #333 solid 1px;
-  font-weight: 300;
-  font-size: 14px;
+      padding: 9px 60px;
 }
 }
