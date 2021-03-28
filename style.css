@@ -352,12 +352,11 @@ text-transform: uppercase ;
 
 
   @media(max-width: 768px){
-           .navbar{
+      .navbar{
       flex-direction: column;
-            height: 120px;
+      height: 120px;
       padding: 20px ;
-      
-    }
+         }
     .navbar a{
       padding: 10px 10px;
       margin: 0 3px;
@@ -423,18 +422,23 @@ text-transform: uppercase ;
     .footer{
       max-width: 100%;
       flex-direction: column;
-      height: 600px;
-    }
+          }
     .footer .contact a{
       padding: 9px 60px;
 }
+
+.footer .contact{
+  overflow-x: hidden;
+}
+
 .icons{
+  max-width: 100%;
+  height: auto;
   display: block;
-  margin-left: auto;
-  }
+   }
+
   
   .icons ul{
-  display: block;
- margin: auto;
+   display: block;
    }
 }
